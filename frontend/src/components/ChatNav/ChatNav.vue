@@ -36,8 +36,8 @@ const navType = {
 const navConfigs = [
   {
     key: navType.github,
-    label: '开源地址',
-    url: 'https://github.com/adams549659584/go-proxy-bingai',
+    label: '服务地址',
+    url: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU0MTEwMTkwMw==&scene=124#wechat_redirect',
   },
   {
     key: navType.version,
