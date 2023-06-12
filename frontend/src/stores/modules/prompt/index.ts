@@ -25,21 +25,21 @@ export const usePromptStore = defineStore(
     const promptDownloadConfig = ref<Array<IPromptDownloadConfig>>([
       {
         type: 1,
-        name: 'ChatGPT 中文调教指南 - 简体',
-        url: './data/prompts/prompts-zh.json',
-        refer: 'https://github.com/PlexPt/awesome-chatgpt-prompts-zh',
+        name: '发型设计 - 调教 ',
+        url: './data/prompts/发型设计 - 调教.json',
+        refer: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU0MTEwMTkwMw==&scene=124#wechat_redirect',
       },
       {
         type: 1,
-        name: 'ChatGPT 中文调教指南 - 繁体',
-        url: './data/prompts/prompts-zh-TW.json',
-        refer: 'https://github.com/PlexPt/awesome-chatgpt-prompts-zh',
+        name: '色彩—调教',
+        url: './data/prompts/色彩—调教.json',
+        refer: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU0MTEwMTkwMw==&scene=124#wechat_redirect',
       },
       {
         type: 1,
-        name: 'Awesome ChatGPT Prompts',
-        url: './data/prompts/prompts.csv',
-        refer: 'https://github.com/f/awesome-chatgpt-prompts',
+        name: '其他',
+        url: './data/prompts/其他.json',
+        refer: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU0MTEwMTkwMw==&scene=124#wechat_redirect',
       },
       {
         type: 2,
