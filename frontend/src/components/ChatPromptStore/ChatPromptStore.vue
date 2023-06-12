@@ -143,7 +143,7 @@ const downloadPrompt = async (config: IPromptDownloadConfig) => {
 </script>
 
 <template>
-  <NModal class="w-11/12 xl:w-[900px]" v-model:show="isShowPromptSotre" preset="card" title="提示词库（先下载词库再导入使用">
+  <NModal class="w-11/12 xl:w-[900px]" v-model:show="isShowPromptSotre" preset="card" title="提示词库（先下载词库或导入使用">
     <div class="flex justify-start flex-wrap gap-2 px-5 pb-2">
       <NInput class="basis-full xl:basis-0 xl:min-w-[300px]" placeholder="搜索提示词" v-model:value="keyword" :clearable="true"></NInput>
       <NButton secondary type="info" @click="isShowDownloadPop = true">下载</NButton>

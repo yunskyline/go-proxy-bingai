@@ -37,7 +37,7 @@ const navConfigs = [
   {
     key: navType.github,
     label: '服务地址',
-    url: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU0MTEwMTkwMw==&scene=124#wechat_redirect',
+    url: 'https://img.mf168.top/wp-content/uploads/2022/07/20220704005800252.jpg',
   },
   {
     key: navType.version,

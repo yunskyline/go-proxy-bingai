@@ -27,19 +27,19 @@ export const usePromptStore = defineStore(
         type: 1,
         name: '发型设计 - 调教 ',
         url: './data/prompts/发型设计 - 调教.json',
-        refer: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU0MTEwMTkwMw==&scene=124#wechat_redirect',
+        refer: 'https://img.mf168.top/wp-content/uploads/2022/07/20220704005800252.jpg',
       },
       {
         type: 1,
         name: '色彩—调教',
         url: './data/prompts/色彩—调教.json',
-        refer: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU0MTEwMTkwMw==&scene=124#wechat_redirect',
+        refer: 'https://img.mf168.top/wp-content/uploads/2022/07/20220704005800252.jpg',
       },
       {
         type: 1,
         name: '其他',
         url: './data/prompts/其他.json',
-        refer: 'https://mp.weixin.qq.com/mp/profile_ext?action=home&__biz=MzU0MTEwMTkwMw==&scene=124#wechat_redirect',
+        refer: 'https://img.mf168.top/wp-content/uploads/2022/07/20220704005800252.jpg',
       },
       {
         type: 2,
