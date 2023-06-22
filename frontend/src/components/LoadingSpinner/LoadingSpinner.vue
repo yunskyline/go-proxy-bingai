@@ -7,9 +7,7 @@ defineProps<{
 <template>
   <Transition name="fade">
     <div v-if="isShow" class="loading-spinner">
-      <div class="bounce1"></div>
-      <div class="bounce2"></div>
-      <div class="bounce3"></div>
+      <p class="loading-text">如无法正常加载，请更换浏览器打开</p>
     </div>
   </Transition>
 </template>
