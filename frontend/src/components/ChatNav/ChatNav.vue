@@ -41,7 +41,7 @@ const navConfigs = [
   },
   {
     key: navType.version,
-    label: '无法使用？',
+    label: '版本信息',
   },
   {
     key: navType.chatService,
@@ -78,7 +78,7 @@ const handleSelect = (key: string) => {
   switch (key) {
     case navType.version:
       {
-        message.success(`更换浏览器打开：${__APP_INFO__.version}`);
+        message.success(`go-proxy-bingai：${__APP_INFO__.version}`);
       }
       break;
     case navType.chatService:

@@ -38,7 +38,7 @@ const handleChangeSydneyConfig = (config: SydneyConfig) => {
 </script>
 
 <template>
-  <NModal class="w-11/12 lg:w-[900px]" v-model:show="isShowChatServiceSelectModal" preset="card" title="聊天服务器设置">
+  <NModal class="w-11/12 lg:w-[900px]" v-model:show="isShowChatServiceSelectModal" preset="card" title="聊天服务器设置/技术支持：https://github.com/adams549659584/go-proxy-bingai">
     <NTable striped>
       <tbody>
         <tr v-for="(config, index) in sydneyConfigs" :key="index">
