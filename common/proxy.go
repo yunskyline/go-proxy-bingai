@@ -334,7 +334,7 @@ func modifyGzipBody(res *http.Response, originalScheme string, originalHost stri
 }
 
 func modifyBrBody(res *http.Response, originalScheme string, originalHost string) error {
-	reader := brotli.NewReader(res.Body)
+	reader := gzip.NewReader(res.Body)
 	var uncompressed bytes.Buffer
 	uncompressed.ReadFrom(reader)
 
