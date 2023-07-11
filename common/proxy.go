@@ -14,7 +14,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/andybalholm/gzip"
+	"github.com/andybalholm/brotli"
 	"golang.org/x/net/proxy"
 )
 
@@ -334,7 +334,7 @@ func modifyGzipBody(res *http.Response, originalScheme string, originalHost stri
 }
 
 func modifyBrBody(res *http.Response, originalScheme string, originalHost string) error {
-	reader := gzip.NewReader(res.Body)
+	reader := brotli.NewReader(res.Body)
 	var uncompressed bytes.Buffer
 	uncompressed.ReadFrom(reader)
 
@@ -346,7 +346,7 @@ func modifyBrBody(res *http.Response, originalScheme string, originalHost string
 	modifiedBody := []byte(modifiedBodyStr)
 	// br 压缩
 	var buf bytes.Buffer
-	writer := gzip.NewWriter(&buf)
+	writer := brotli.NewWriter(&buf)
 	writer.Write(modifiedBody)
 	writer.Close()
 
